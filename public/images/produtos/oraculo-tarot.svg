@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" role="img" aria-label="Capa editorial do Oráculo de Bolso do Tarot">
+  <defs>
+    <radialGradient id="veil" cx="50%" cy="22%" r="70%">
+      <stop offset="0" stop-color="#3b2f61"/>
+      <stop offset="0.48" stop-color="#07112d"/>
+      <stop offset="1" stop-color="#03040a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b6c31"/>
+      <stop offset="0.5" stop-color="#f0d18a"/>
+      <stop offset="1" stop-color="#9d7b39"/>
+    </linearGradient>
+    <filter id="soft">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1350" fill="url(#veil)"/>
+  <g opacity="0.55">
+    <circle cx="150" cy="210" r="3" fill="#f0d18a"/>
+    <circle cx="690" cy="160" r="2" fill="#f0d18a"/>
+    <circle cx="760" cy="420" r="3" fill="#ffffff"/>
+    <circle cx="240" cy="920" r="2" fill="#ffffff"/>
+    <circle cx="690" cy="1030" r="3" fill="#f0d18a"/>
+    <circle cx="470" cy="300" r="2" fill="#ffffff"/>
+  </g>
+  <rect x="54" y="54" width="792" height="1242" rx="18" fill="none" stroke="url(#gold)" stroke-width="5"/>
+  <rect x="82" y="82" width="736" height="1186" rx="10" fill="none" stroke="#c9a45a" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M130 270 C260 210 350 210 450 270 C550 330 640 330 770 270" fill="none" stroke="#c9a45a" stroke-width="3" stroke-opacity="0.58"/>
+  <text x="450" y="205" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f0d18a" letter-spacing="5">BIBLIOTECA DOS MISTERIOS</text>
+  <g filter="url(#soft)">
+    <rect x="292" y="388" width="316" height="476" rx="18" fill="#07080d" stroke="url(#gold)" stroke-width="4"/>
+    <rect x="326" y="426" width="248" height="400" rx="10" fill="#10162f" stroke="#c9a45a" stroke-opacity="0.32"/>
+    <circle cx="450" cy="588" r="108" fill="none" stroke="#c9a45a" stroke-width="5"/>
+    <circle cx="450" cy="588" r="58" fill="none" stroke="#f0d18a" stroke-width="2" stroke-opacity="0.7"/>
+    <path d="M450 478 L484 554 L566 562 L504 616 L522 698 L450 656 L378 698 L396 616 L334 562 L416 554 Z" fill="none" stroke="#f0d18a" stroke-width="4"/>
+    <path d="M450 468 C418 525 418 651 450 708 C482 651 482 525 450 468Z" fill="#f0d18a" opacity="0.13"/>
+  </g>
+  <text x="450" y="980" text-anchor="middle" font-family="Georgia, serif" font-size="68" fill="#f5ead0">Oráculo de Bolso</text>
+  <text x="450" y="1060" text-anchor="middle" font-family="Georgia, serif" font-size="94" fill="#f0d18a">do Tarot</text>
+  <text x="450" y="1135" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" fill="#bdb293" letter-spacing="3">ARCANOS • SIMBOLOS • PRESENCA</text>
+  <path d="M240 1206 H660" stroke="#c9a45a" stroke-width="2" stroke-opacity="0.56"/>
+</svg>

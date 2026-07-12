@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1350" role="img" aria-label="Capa do Acesso Completo ao Acervo">
+  <defs>
+    <radialGradient id="night" cx="50%" cy="18%" r="82%">
+      <stop offset="0" stop-color="#10245a"/>
+      <stop offset="0.42" stop-color="#06122e"/>
+      <stop offset="1" stop-color="#020817"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#94713a"/>
+      <stop offset="0.5" stop-color="#f0d18a"/>
+      <stop offset="1" stop-color="#a67c39"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1350" fill="url(#night)"/>
+  <g opacity="0.7">
+    <circle cx="136" cy="154" r="2" fill="#f0d18a"/>
+    <circle cx="714" cy="190" r="3" fill="#f0d18a"/>
+    <circle cx="790" cy="388" r="2" fill="#fff"/>
+    <circle cx="234" cy="1040" r="3" fill="#f0d18a"/>
+    <circle cx="560" cy="880" r="2" fill="#fff"/>
+    <circle cx="420" cy="288" r="2" fill="#fff"/>
+  </g>
+  <rect x="52" y="52" width="796" height="1246" rx="22" fill="none" stroke="url(#gold)" stroke-width="5"/>
+  <rect x="84" y="84" width="732" height="1182" rx="12" fill="none" stroke="#c9a45a" stroke-opacity="0.38" stroke-width="2"/>
+  <text x="450" y="176" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#f0d18a" letter-spacing="5">BIBLIOTECA DOS MISTERIOS</text>
+  <g filter="url(#shadow)">
+    <path d="M214 388 H686 V858 H214 Z" fill="#07112d" stroke="url(#gold)" stroke-width="4"/>
+    <path d="M246 426 H654 V820 H246 Z" fill="#101a3e" stroke="#c9a45a" stroke-opacity="0.35"/>
+    <path d="M300 492 H600 M300 562 H600 M300 632 H600 M300 702 H600" stroke="#c9a45a" stroke-opacity="0.28" stroke-width="4"/>
+    <circle cx="450" cy="632" r="146" fill="none" stroke="#f0d18a" stroke-width="4" stroke-opacity="0.75"/>
+    <circle cx="450" cy="632" r="82" fill="none" stroke="#c9a45a" stroke-width="3" stroke-opacity="0.55"/>
+    <path d="M450 482 L482 598 L602 632 L482 666 L450 782 L418 666 L298 632 L418 598 Z" fill="#f0d18a" opacity="0.16" stroke="#f0d18a" stroke-width="3"/>
+  </g>
+  <text x="450" y="972" text-anchor="middle" font-family="Georgia, serif" font-size="70" fill="#f5ead0">Acesso Completo</text>
+  <text x="450" y="1058" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#f0d18a">ao Acervo</text>
+  <text x="450" y="1140" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#bdb293" letter-spacing="3">12 MESES • GUIAS • DOSSIES • GRIMORIOS</text>
+  <path d="M246 1210 H654" stroke="#c9a45a" stroke-width="2" stroke-opacity="0.58"/>
+</svg>
