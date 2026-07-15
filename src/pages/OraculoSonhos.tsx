@@ -9,16 +9,26 @@ import {
   Moon,
   Sparkles,
 } from "lucide-react";
+import { useEffect } from "react";
+import { trackMetaConversion } from "../utils/metaConversions";
+import { buildCheckoutUrlWithTracking } from "../utils/tracking";
 import "./oraculo-sonhos.css";
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/ULoagjR";
 const ASSET_PATH = "/images/oraculo-sonhos";
+const ORACULO_PRODUCT = {
+  content_name: "Oráculo de Bolso dos Sonhos",
+  content_ids: ["oraculo-de-bolso-dos-sonhos"],
+  content_type: "product",
+  value: 14.0,
+  currency: "BRL",
+};
 
 function CtaLink({ children, variant = "primary" }: { children: string; variant?: "primary" | "secondary" }) {
   return (
     <a
       className={`oraculo-cta oraculo-cta--${variant}`}
-      href={CHECKOUT_URL}
+      href={buildCheckoutUrlWithTracking(CHECKOUT_URL)}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -68,6 +78,18 @@ const archiveItems = [
 ];
 
 export function OraculoSonhos() {
+  useEffect(() => {
+    trackMetaConversion({
+      eventName: "PageView",
+      dedupeKey: window.location.pathname,
+    });
+    trackMetaConversion({
+      eventName: "ViewContent",
+      customData: ORACULO_PRODUCT,
+      dedupeKey: `${window.location.pathname}:oraculo-de-bolso-dos-sonhos`,
+    });
+  }, []);
+
   return (
     <main className="oraculo-page">
       <section className="oraculo-hero" aria-labelledby="oraculo-hero-title">
