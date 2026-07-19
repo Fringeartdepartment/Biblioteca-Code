@@ -1,13 +1,36 @@
-import { ArrowDown, LibraryBig, Sparkles } from "lucide-react";
+import { ArrowDown, KeyRound, LibraryBig, Sparkles } from "lucide-react";
 import { ButtonLink } from "./ButtonLink";
 import { featuredCheckoutUrl, products } from "../data/products";
 import { buildRoute } from "../utils/routes";
 
-const heroCovers = [
-  products.find((product) => product.title === "Acesso Completo ao Acervo"),
-  products.find((product) => product.title === "Grimório 1 - Viagem Astral"),
-  products.find((product) => product.title === "Dossiê nº5 - A Anatomia do Mapa Astral"),
-].filter(Boolean);
+const shelfGroups = [
+  {
+    title: "Guias de Bolso",
+    catalog: "PRAT. 01 / CONSULTA",
+    note: "Consultas breves para perguntas que acompanham o cotidiano.",
+    seal: "5 obras",
+    covers: ["Oráculo de Bolso dos Sonhos", "Enciclopédia de Bolso das Fases da Lua", "Herbário de Bolso"],
+  },
+  {
+    title: "Dossiês",
+    catalog: "PRAT. 02 / INVESTIGAÇÃO",
+    note: "Investigações editoriais sobre símbolos, ideias e personagens.",
+    seal: "5 obras",
+    covers: ["Dossiê nº1 - O Duplo", "Dossiê nº2 - Sincronicidades", "Dossiê nº5 - A Anatomia do Mapa Astral"],
+  },
+  {
+    title: "Grimórios",
+    catalog: "PRAT. 03 / ESTUDO",
+    note: "Estudos densos para atravessar sistemas e práticas simbólicas.",
+    seal: "2 obras",
+    covers: ["Grimório 1 - Viagem Astral", "Grimório 2 - Geometria Sagrada"],
+  },
+].map((group) => ({
+  ...group,
+  products: group.covers
+    .map((title) => products.find((product) => product.title === title))
+    .filter((product) => product !== undefined),
+}));
 
 export function Hero() {
   return (
@@ -55,19 +78,46 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero-visual fade-in" aria-label="Portal editorial da Biblioteca dos Mistérios">
-          <img src="images/brand/hero-biblioteca.png" alt="Biblioteca mística com livros e atmosfera noturna" />
-          <div className="hero-orbit hero-orbit-one" />
-          <div className="hero-orbit hero-orbit-two" />
-          <div className="hero-cover-rail" aria-hidden="true">
-            {heroCovers.map((product) => (
-              <img key={product!.title} src={product!.image} alt="" />
+        <div className="archive-shelf fade-in" aria-label="Prateleiras catalogadas da Biblioteca dos Mistérios">
+          <div className="archive-shelf-heading">
+            <div>
+              <span>ACERVO CATALOGADO</span>
+              <strong>Escolha uma prateleira para explorar</strong>
+            </div>
+            <div className="archive-shelf-key" aria-hidden="true">
+              <KeyRound size={22} />
+              <span>CHAVE GERAL · 0427</span>
+            </div>
+          </div>
+
+          <div className="archive-shelf-cabinet">
+            {shelfGroups.map((group, groupIndex) => (
+              <a className="archive-shelf-bay" href="#acervo" key={group.title}>
+                <div className="archive-shelf-catalog">
+                  <span>{group.catalog}</span>
+                  <b>{String(groupIndex + 1).padStart(2, "0")}</b>
+                </div>
+                <div className="archive-shelf-books" aria-hidden="true">
+                  {group.products.map((product) => (
+                    <img key={product.title} src={product.image} alt="" />
+                  ))}
+                </div>
+                <div className="archive-shelf-label">
+                  <span>{group.seal}</span>
+                  <strong>{group.title}</strong>
+                  <p>{group.note}</p>
+                  <small>Explorar prateleira →</small>
+                </div>
+              </a>
             ))}
           </div>
-          <div className="hero-inscription">
-            <span>Guias</span>
-            <span>Dossiês</span>
-            <span>Grimórios</span>
+
+          <div className="archive-shelf-ledger" aria-hidden="true">
+            <span>COMPRA AVULSA DISPONÍVEL</span>
+            <i />
+            <span>ACESSOS ANUAIS</span>
+            <i />
+            <span>TODAS INCLUÍDAS NO ACERVO COMPLETO</span>
           </div>
         </div>
       </div>

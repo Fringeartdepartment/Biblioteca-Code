@@ -525,14 +525,14 @@
   color: #dfd0ae;
 }
 
-.archive-shelf {
+.oraculo-page .archive-shelf {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   align-items: stretch;
 }
 
-.archive-shelf article {
+.oraculo-page .archive-shelf article {
   display: grid;
   min-height: 170px;
   align-content: space-between;
@@ -545,13 +545,13 @@
   box-shadow: inset 0 -12px 0 rgba(86, 49, 126, 0.16);
 }
 
-.archive-shelf svg {
+.oraculo-page .archive-shelf svg {
   width: 26px;
   height: 26px;
   color: var(--purple);
 }
 
-.archive-shelf span {
+.oraculo-page .archive-shelf span {
   font-family: "IBM Plex Mono", "Courier New", monospace;
   font-size: 0.78rem;
   font-weight: 800;
@@ -658,7 +658,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .archive-shelf {
+  .oraculo-page .archive-shelf {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -721,7 +721,7 @@
   }
 
   .preview-grid,
-  .archive-shelf {
+  .oraculo-page .archive-shelf {
     grid-template-columns: 1fr;
   }
 

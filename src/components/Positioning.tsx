@@ -33,8 +33,8 @@ export function Positioning() {
         </div>
         <div className="positioning-image">
           <img
-            src="images/brand/hero-biblioteca.png"
-            alt="Biblioteca mística com livros e atmosfera noturna"
+            src="images/editorial/em-catalogacao.png"
+            alt="Arquivo editorial da Biblioteca dos Mistérios com novas obras em catalogação"
             loading="lazy"
           />
         </div>
