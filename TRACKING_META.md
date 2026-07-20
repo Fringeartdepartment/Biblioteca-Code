@@ -14,7 +14,7 @@ O site da Biblioteca dos Mistérios envia eventos da página de vendas para a Me
 Produto: Oráculo de Bolso dos Sonhos
 Valor: 14.00
 Moeda: BRL
-Pixel ID: 120249872736350189
+Pixel ID: 1500019611899588
 Checkout: https://pay.kiwify.com.br/ULoagjR
 ```
 
@@ -51,7 +51,7 @@ META_CONVERSIONS_ACCESS_TOKEN=token_da_api_de_conversoes
 Opcional, porque o site já usa o pixel correto por padrão:
 
 ```txt
-META_PIXEL_ID=120249872736350189
+META_PIXEL_ID=1500019611899588
 ```
 
 Opcional para teste no Gerenciador de Eventos:
