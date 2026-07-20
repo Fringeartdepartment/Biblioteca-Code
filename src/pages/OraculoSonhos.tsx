@@ -25,10 +25,19 @@ const ORACULO_PRODUCT = {
 };
 
 function CtaLink({ children, variant = "primary" }: { children: string; variant?: "primary" | "secondary" }) {
+  function handleCheckoutClick() {
+    trackMetaConversion({
+      eventName: "InitiateCheckout",
+      customData: ORACULO_PRODUCT,
+      dedupeKey: `${window.location.pathname}:oraculo-de-bolso-dos-sonhos:checkout`,
+    });
+  }
+
   return (
     <a
       className={`oraculo-cta oraculo-cta--${variant}`}
       href={buildCheckoutUrlWithTracking(CHECKOUT_URL)}
+      onClick={handleCheckoutClick}
       target="_blank"
       rel="noopener noreferrer"
     >

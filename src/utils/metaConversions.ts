@@ -2,7 +2,7 @@ const META_CONVERSIONS_ENDPOINT = "/api/meta-conversions";
 const trackedEvents = new Set<string>();
 
 type MetaConversionPayload = {
-  eventName: "PageView" | "ViewContent";
+  eventName: "PageView" | "ViewContent" | "InitiateCheckout";
   customData?: Record<string, unknown>;
   dedupeKey: string;
 };
