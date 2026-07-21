@@ -4,7 +4,7 @@ const catalogEntries = [
     title: "Em catalogação",
     copy:
       "Novos arquivos seguem em preparo para entrar no Acervo, mantendo a sensação de biblioteca viva e expansão contínua.",
-    image: "images/editorial/em-catalogacao.png",
+    image: "images/editorial/em-catalogacao.jpg",
     alt: "Painel editorial indicando conteúdos em catalogação na Biblioteca dos Mistérios",
   },
   {
@@ -12,7 +12,7 @@ const catalogEntries = [
     title: "Estudos do Invisível",
     copy:
       "Um próximo ciclo de grimórios já aparece no horizonte, com novas investigações simbólicas em desenvolvimento.",
-    image: "images/editorial/estudos-invisivel.png",
+    image: "images/editorial/estudos-invisivel.jpg",
     alt: "Banner editorial da coleção Estudos do Invisível com sete novos grimórios em breve",
   },
   {
@@ -20,7 +20,7 @@ const catalogEntries = [
     title: "Conheça os Grimórios",
     copy:
       "Uma apresentação mais ampla da coleção para sustentar a ideia de consulta profunda, arquivo especial e continuidade simbólica.",
-    image: "images/editorial/conheca-os-grimorios.png",
+    image: "images/editorial/conheca-os-grimorios.jpg",
     alt: "Banner editorial apresentando a coleção de grimórios da Biblioteca dos Mistérios",
   },
   {
@@ -28,7 +28,7 @@ const catalogEntries = [
     title: "A Arte de Unir Mundos",
     copy:
       "Esta peça funciona como janela para a linguagem visual da Geometria Sagrada e acrescenta densidade contemplativa ao conjunto.",
-    image: "images/editorial/arte-de-unir-mundos.png",
+    image: "images/editorial/arte-de-unir-mundos.jpg",
     alt: "Banner editorial do Grimório 2 Geometria Sagrada com diagrama geométrico",
   },
   {
@@ -36,7 +36,7 @@ const catalogEntries = [
     title: "A Estranha Transição",
     copy:
       "A composição noturna e a cena de travessia ampliam o imaginário dos grimórios sem roubar protagonismo das capas vendáveis.",
-    image: "images/editorial/estranha-transicao.png",
+    image: "images/editorial/estranha-transicao.jpg",
     alt: "Banner editorial do Grimório 1 Projeção Astral com cena noturna e atmosfera contemplativa",
   },
 ];

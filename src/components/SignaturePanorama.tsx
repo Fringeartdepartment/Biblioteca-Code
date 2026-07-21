@@ -7,7 +7,7 @@ export function SignaturePanorama() {
       <div className="signature-panorama-card">
         <div className="signature-panorama-media">
           <img
-            src="images/editorial/assinatura-anual-panorama.png"
+            src="images/editorial/assinatura-anual-panorama.jpg"
             alt="Banner editorial da assinatura anual da Biblioteca dos Mistérios"
             loading="lazy"
           />

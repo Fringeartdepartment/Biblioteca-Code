@@ -16,7 +16,7 @@ export function Subscription() {
       <div className="subscription-panel">
         <div className="subscription-media" aria-hidden="true">
           <div className="subscription-art">
-            <img src="images/editorial/assinatura-anual.png" alt="" loading="lazy" />
+            <img src="images/editorial/assinatura-anual.jpg" alt="" loading="lazy" />
             <div className="subscription-price-card">
               <span>12 meses</span>
               <strong>R$ 297</strong>

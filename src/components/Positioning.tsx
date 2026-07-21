@@ -33,7 +33,7 @@ export function Positioning() {
         </div>
         <div className="positioning-image">
           <img
-            src="images/editorial/em-catalogacao.png"
+            src="images/editorial/em-catalogacao.jpg"
             alt="Arquivo editorial da Biblioteca dos Mistérios com novas obras em catalogação"
             loading="lazy"
           />

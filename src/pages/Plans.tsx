@@ -150,7 +150,7 @@ export function Plans() {
               <strong>MENTES CURIOSAS</strong>
               <small>CHAVE 0427</small>
             </div>
-            <img src="images/editorial/assinatura-anual-panorama.png" alt="Banner editorial da assinatura anual da Biblioteca dos Mistérios" />
+            <img src="images/editorial/assinatura-anual-panorama.jpg" alt="Banner editorial da assinatura anual da Biblioteca dos Mistérios" />
             <div className="plans-hero-manifest-note" aria-hidden="true">
               <span>Menos obvio.</span>
               <span>Mais significado.</span>
@@ -211,7 +211,7 @@ export function Plans() {
         <article className="plans-featured-card">
           <div className="plans-featured-stamp" aria-hidden="true">MEMBRO ATIVO</div>
           <div className="plans-featured-media">
-            <img src="images/editorial/assinatura-anual.png" alt="Arte editorial do Acesso Completo ao Acervo" />
+            <img src="images/editorial/assinatura-anual.jpg" alt="Arte editorial do Acesso Completo ao Acervo" />
             <div className="plans-featured-badge">Mais escolhido</div>
           </div>
 
@@ -419,9 +419,9 @@ export function Plans() {
               <small>somente Acervo Completo</small>
             </div>
             <div className="plans-secret-drawer" aria-hidden="true">
-              <img src="images/editorial/em-catalogacao.png" alt="" loading="lazy" />
-              <img src="images/editorial/estudos-invisivel.png" alt="" loading="lazy" />
-              <img src="images/editorial/estranha-transicao.png" alt="" loading="lazy" />
+              <img src="images/editorial/em-catalogacao.jpg" alt="" loading="lazy" />
+              <img src="images/editorial/estudos-invisivel.jpg" alt="" loading="lazy" />
+              <img src="images/editorial/estranha-transicao.jpg" alt="" loading="lazy" />
               <div className="plans-secret-ticket">
                 <span>CONTEM</span>
                 <strong>notas, fichas, bastidores e obras em preparo</strong>

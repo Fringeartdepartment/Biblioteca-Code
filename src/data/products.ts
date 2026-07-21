@@ -16,7 +16,7 @@ export const products: Product[] = [
     description:
       "A entrada principal para acompanhar a Biblioteca por 12 meses e acessar as publicações disponíveis do Acervo.",
     price: "R$ 297",
-    image: "images/editorial/assinatura-anual.png",
+    image: "images/editorial/assinatura-anual.jpg",
     symbol: "✦",
     checkoutUrl: "https://pay.kiwify.com.br/tVXNQff",
     featured: true,
@@ -27,7 +27,7 @@ export const products: Product[] = [
     description:
       "Uma publicação de bolso para observar os arquétipos do Tarot como linguagem simbólica e ferramenta de leitura.",
     price: "R$ 14",
-    image: "images/produtos/oraculo-tarot.png",
+    image: "images/produtos/oraculo-tarot.jpg",
     symbol: "☉",
     checkoutUrl: "https://pay.kiwify.com.br/fOCgPyc",
   },
@@ -37,7 +37,7 @@ export const products: Product[] = [
     description:
       "Uma obra breve para registrar imagens do inconsciente, perceber recorrências e investigar sonhos com delicadeza.",
     price: "R$ 14",
-    image: "images/produtos/oraculo-dos-sonhos.png",
+    image: "images/produtos/oraculo-dos-sonhos.jpg",
     symbol: "☾",
     checkoutUrl: "https://pay.kiwify.com.br/ULoagjR",
   },
@@ -47,7 +47,7 @@ export const products: Product[] = [
     description:
       "Uma ficha de entrada para o universo das ervas, seus usos simbólicos e sua presença em rituais cotidianos.",
     price: "R$ 14",
-    image: "images/produtos/herbario-bolso.png",
+    image: "images/produtos/herbario-bolso.jpg",
     symbol: "✢",
     checkoutUrl: "https://pay.kiwify.com.br/zBpK5oF",
   },
@@ -57,7 +57,7 @@ export const products: Product[] = [
     description:
       "Uma publicação para acompanhar fases lunares, ciclos emocionais e pequenos rituais de organização interior.",
     price: "R$ 14",
-    image: "images/produtos/fases-da-lua.png",
+    image: "images/produtos/fases-da-lua.jpg",
     symbol: "☽",
     checkoutUrl: "https://pay.kiwify.com.br/bJc0cy2",
   },
@@ -67,7 +67,7 @@ export const products: Product[] = [
     description:
       "Um guia visual para compreender fundamentos, posturas e princípios da yoga como prática de presença.",
     price: "R$ 14",
-    image: "images/produtos/manual-yoga.png",
+    image: "images/produtos/manual-yoga.jpg",
     symbol: "◇",
     checkoutUrl: "https://pay.kiwify.com.br/8YfOveR",
   },
@@ -77,7 +77,7 @@ export const products: Product[] = [
     description:
       "Um dossiê sobre espelhamento, identidade, sombra e as imagens duplicadas que atravessam a consciência.",
     price: "R$ 27",
-    image: "images/produtos/dossie-o-duplo.png",
+    image: "images/produtos/dossie-o-duplo.jpg",
     symbol: "Ⅱ",
     checkoutUrl: "https://pay.kiwify.com.br/Lag2bDv",
   },
@@ -87,7 +87,7 @@ export const products: Product[] = [
     description:
       "Uma investigação sobre coincidências significativas, padrões invisíveis e formas de perceber sentido.",
     price: "R$ 27",
-    image: "images/produtos/dossie-sincronicidades.png",
+    image: "images/produtos/dossie-sincronicidades.jpg",
     symbol: "✶",
     checkoutUrl: "https://pay.kiwify.com.br/s0ZQ816",
   },
@@ -97,7 +97,7 @@ export const products: Product[] = [
     description:
       "Uma travessia entre matéria, símbolo e imaginação para observar o átomo como imagem de ordem.",
     price: "R$ 27",
-    image: "images/produtos/dossie-atomo.png",
+    image: "images/produtos/dossie-atomo.jpg",
     symbol: "⊙",
     checkoutUrl: "https://pay.kiwify.com.br/Lff32At",
   },
@@ -107,7 +107,7 @@ export const products: Product[] = [
     description:
       "Um retrato editorial de Helena Blavatsky, sua influência esotérica e os imaginários que ajudou a organizar.",
     price: "R$ 27",
-    image: "images/produtos/dossie-blavatsky.png",
+    image: "images/produtos/dossie-blavatsky.jpg",
     symbol: "✧",
     checkoutUrl: "https://pay.kiwify.com.br/V4OXLMp",
   },
@@ -117,7 +117,7 @@ export const products: Product[] = [
     description:
       "Um dossiê para observar casas, planetas, signos e relações internas do mapa astral como arquitetura simbólica.",
     price: "R$ 27",
-    image: "images/produtos/dossie-mapa-astral.png",
+    image: "images/produtos/dossie-mapa-astral.jpg",
     symbol: "♁",
     checkoutUrl: "https://pay.kiwify.com.br/mKi9yqO",
   },
@@ -127,7 +127,7 @@ export const products: Product[] = [
     description:
       "Um grimório visual para estudar projeção astral, preparar registros e criar rituais de observação.",
     price: "R$ 64",
-    image: "images/produtos/grimorio-viagem-astral.png",
+    image: "images/produtos/grimorio-viagem-astral.jpg",
     symbol: "⌁",
     checkoutUrl: "https://pay.kiwify.com.br/4nLypnS",
   },
@@ -137,7 +137,7 @@ export const products: Product[] = [
     description:
       "Um atlas de formas, símbolos e exercícios para perceber a geometria como linguagem de ordem e contemplação.",
     price: "R$ 64",
-    image: "images/produtos/grimorio-geometria-sagrada.png",
+    image: "images/produtos/grimorio-geometria-sagrada.jpg",
     symbol: "⬡",
     checkoutUrl: "https://pay.kiwify.com.br/JU5StbH",
   },

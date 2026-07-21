@@ -55,27 +55,27 @@ const previewPages = [
   {
     title: "Registro Onírico",
     copy: "Para anotar o sonho antes que ele seja engolido pelo dia.",
-    image: `${ASSET_PATH}/tiragem-onirica.png`,
+    image: `${ASSET_PATH}/tiragem-onirica.jpg`,
   },
   {
     title: "Consulte pela Sensação",
     copy: "Porque às vezes o corpo lembra antes da cabeça explicar.",
-    image: `${ASSET_PATH}/metodo-5-sinais.png`,
+    image: `${ASSET_PATH}/metodo-5-sinais.jpg`,
   },
   {
     title: "Tipos de Sonho",
     copy: "Memória, medo, desejo, símbolo, repetição: nem todo sonho vem do mesmo lugar.",
-    image: `${ASSET_PATH}/page-extra-1.png`,
+    image: `${ASSET_PATH}/page-extra-1.jpg`,
   },
   {
     title: "Lugares Estranhos",
     copy: "Casa, escola, quarto, rua desconhecida. O cenário também fala. Discretamente.",
-    image: `${ASSET_PATH}/page-extra-2.png`,
+    image: `${ASSET_PATH}/page-extra-2.jpg`,
   },
   {
     title: "Antes de Fechar o Arquivo",
     copy: "Para encerrar sem transformar tudo em profecia.",
-    image: `${ASSET_PATH}/agua.png`,
+    image: `${ASSET_PATH}/agua.jpg`,
   },
 ];
 
@@ -134,7 +134,7 @@ export function OraculoSonhos() {
 
           <div className="oraculo-hero__visual" aria-label="Mockup da capa do Oráculo de Bolso dos Sonhos">
             <img
-              src={`${ASSET_PATH}/cover.png`}
+              src={`${ASSET_PATH}/cover.jpg`}
               alt="Capa do Oráculo de Bolso dos Sonhos"
               width="1024"
               height="1536"
@@ -178,7 +178,7 @@ export function OraculoSonhos() {
       <section className="oraculo-section oraculo-shell presentation" aria-labelledby="obra-title">
         <div className="presentation__image">
           <img
-            src={`${ASSET_PATH}/hero-banner.png`}
+            src={`${ASSET_PATH}/hero-banner.jpg`}
             alt="Banner editorial do Oráculo de Bolso dos Sonhos"
             width="1672"
             height="941"
@@ -311,7 +311,7 @@ export function OraculoSonhos() {
             </p>
           </div>
           <img
-            src={`${ASSET_PATH}/cover.png`}
+            src={`${ASSET_PATH}/cover.jpg`}
             alt="Capa do Oráculo de Bolso dos Sonhos"
             width="1024"
             height="1536"

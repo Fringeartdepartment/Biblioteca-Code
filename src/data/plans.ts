@@ -241,7 +241,7 @@ export const editorialBanners = [
     title: "A porta principal do Acervo",
     copy:
       "A Biblioteca inteira organizada como acesso contínuo, com linguagem editorial e entrada clara para quem quer permanecer no Acervo.",
-    image: "images/editorial/assinatura-anual-panorama.png",
+    image: "images/editorial/assinatura-anual-panorama.jpg",
     alt: "Banner editorial da assinatura anual da Biblioteca dos Mistérios",
   },
   {
@@ -249,7 +249,7 @@ export const editorialBanners = [
     title: "Conheça os Grimórios",
     copy:
       "Uma apresentação ampla da prateleira mais densa da Biblioteca, para quem busca obras de consulta e aprofundamento.",
-    image: "images/editorial/conheca-os-grimorios.png",
+    image: "images/editorial/conheca-os-grimorios.jpg",
     alt: "Banner editorial apresentando a coleção de grimórios da Biblioteca dos Mistérios",
   },
   {
@@ -257,7 +257,7 @@ export const editorialBanners = [
     title: "Estudos do Invisível",
     copy:
       "Um sinal de continuidade editorial: novas peças e próximos ciclos já aparecem como horizonte do Acervo.",
-    image: "images/editorial/estudos-invisivel.png",
+    image: "images/editorial/estudos-invisivel.jpg",
     alt: "Banner editorial da coleção Estudos do Invisível com sete novos grimórios em breve",
   },
 ] as const;
